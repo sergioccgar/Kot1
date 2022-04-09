@@ -8,4 +8,9 @@ fun main() {
     println(name + name2)
     print("Hi")
     println(name)
+    val edad = 24
+    var contador = 1
+    println(edad + contador)
+    val anio: Int? = null
+    println(anio)
 }
