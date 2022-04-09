@@ -6,4 +6,6 @@ fun main() {
     // name = "no" <- Esto es ilegal bruh
     name2 = "Cs"
     println(name + name2)
+    print("Hi")
+    println(name)
 }
