@@ -35,4 +35,10 @@ fun main() {
         }
         contador++
     } while (contador < 10)
+    // while
+    contador = 30
+    while (contador > 15) {
+        println(contador)
+        contador--
+    }
 }
