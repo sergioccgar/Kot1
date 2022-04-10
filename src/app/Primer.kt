@@ -18,8 +18,10 @@ fun main() {
     // y agregarse un ?
     var anio: Int? = null
     println(anio)
-    anio = 2022
+    // anio = 2022
     if (anio != null) {
         println ("Es el año " + anio)
+    } else {
+        println("NO HAY AÑO AAAAAAAAAAAAAAH")
     }
 }
