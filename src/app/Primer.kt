@@ -41,4 +41,43 @@ fun main() {
         println(contador)
         contador--
     }
+    // for en un rango de números
+    for (i in 1..100) {
+        print("$i ")
+    }
+    print("\n")
+    // for en un rango de números con incremento distinto a 1
+    /* for (i in 1..10 step 2) {
+        print("$i ")
+    }
+    println("\n") */
+    // for en un rango de números sin considerar el último
+    for (i in 1 until 100) {
+        print("$i ")
+    }
+    print("\n")
+
+    // Con variables:
+
+    var num1 = 50
+    var num2 = 100
+
+    for (i in num1 until num2) {
+        print("$i ")
+    }
+    print("\n")
+
+    // Con decremento
+
+    for (i in 10 downTo 0) {
+        print("$i ")
+    }
+    print("\n")
+
+    // Con rango de caracteres
+
+    for (i in 'a'..'m') {
+        print("$i ")
+    }
+    print("\n")
 }
