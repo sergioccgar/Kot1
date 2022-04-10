@@ -23,3 +23,11 @@ Corre lo siguiente para verificar instalación correcta:
 ```
 $ sdk version
 ```
+Para compilar, posiciónate en src/app y ejecuta:
+```
+$ kotlinc Primer.kt
+```
+Para ejecutar, posiciónate en src/app y ejecuta:
+```
+$ java PrimerKt
+```
