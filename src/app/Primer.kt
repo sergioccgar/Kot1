@@ -1,3 +1,8 @@
+// Defining a function
+fun sayHi(): String {
+    return "Hi"
+}
+
 fun main() {
     println("Holis")
     val name: String = "Edo"
@@ -80,4 +85,6 @@ fun main() {
         print("$i ")
     }
     print("\n")
+
+    println(sayHi())
 }
