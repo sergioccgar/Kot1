@@ -16,6 +16,10 @@ fun main() {
     println(edad + contador)
     // Para que una variable sea nullable debe declarase su tipo
     // y agregarse un ?
-    val anio: Int? = null
+    var anio: Int? = null
     println(anio)
+    anio = 2022
+    if (anio != null) {
+        println ("Es el año " + anio)
+    }
 }
